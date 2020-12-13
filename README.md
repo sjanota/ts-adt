@@ -1,2 +1,3 @@
 # ts-adt
-ADT genrator for TypeScript
+
+ADT generator for TypeScript
