@@ -1,19 +1,23 @@
 {
   "name": "@sjanota/ts-adt",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "ADT generator for TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
     "build": "tsc --outDir dist",
-    "prepublish": "build"
+    "prepublish": "yarn build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sjanota/ts-adt.git"
   },
-  "keywords": ["typescript", "functional-programming", "adt"],
+  "keywords": [
+    "typescript",
+    "functional-programming",
+    "adt"
+  ],
   "author": "sjanota",
   "license": "Apache 2.0",
   "bugs": {
