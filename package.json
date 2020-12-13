@@ -1,6 +1,6 @@
 {
   "name": "@sjanota/ts-adt",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "ADT generator for TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
