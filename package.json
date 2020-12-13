@@ -1,10 +1,13 @@
 {
-  "name": "ts-adt",
-  "version": "1.0.0",
+  "name": "@sjanota/ts-adt",
+  "version": "0.0.0",
   "description": "ADT generator for TypeScript",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc --outDir dist",
+    "prepublish": "build"
   },
   "repository": {
     "type": "git",
