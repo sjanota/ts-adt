@@ -19,7 +19,7 @@
     "adt"
   ],
   "author": "sjanota",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/sjanota/ts-adt/issues"
   },
@@ -33,6 +33,7 @@
   "files": [
     "dist/**/*",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "package.jso"
   ]
 }
