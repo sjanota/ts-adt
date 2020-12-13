@@ -7,10 +7,7 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "copy-dist": "cp -r ./dist/* . && rm -rf ./dist",
-    "prepublish": "yarn build && yarn copy-dist",
-    "cleanup-dist-postpublish": "git clean -fd",
-    "postpublish": "yarn cleanup-dist-postpublish"
+    "prepublish": "yarn build"
   },
   "repository": {
     "type": "git",
@@ -34,8 +31,7 @@
     "typescript": "^4.1.3"
   },
   "files": [
-    "index.js",
-    "index.d.ts",
+    "dist/**/*",
     "LICENSE",
     "README.md"
   ]
