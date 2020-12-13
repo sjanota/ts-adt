@@ -1,6 +1,6 @@
 {
   "name": "@sjanota/ts-adt",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "ADT generator for TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,8 +10,7 @@
     "copy-dist": "cp -r ./dist/* . && rm -rf ./dist",
     "prepublish": "yarn build && yarn copy-dist",
     "cleanup-dist-postpublish": "git clean -fd",
-    "create-release-tag": "PACKAGE_VERSION=$(cat package.json | grep \\\"version\\\" | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag v$PACKAGE_VERSION && git push --tags",
-    "postpublish": "yarn cleanup-dist-postpublish && yarn create-release-tag"
+    "postpublish": "yarn cleanup-dist-postpublish"
   },
   "repository": {
     "type": "git",
